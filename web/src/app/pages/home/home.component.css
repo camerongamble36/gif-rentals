@@ -1,0 +1,58 @@
+.view {
+  height: 75vh;
+  background-image: url("../../../assets/images/jpg/home_header_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.avatar {
+  height: 128px;
+  width: 128px;
+  border-radius: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.testimonials {
+  background-color: #c2d5e7;
+  color: #ffffff;
+}
+
+.carousel-img {
+  height: 851px;
+  width: 100%;
+  filter: drop-shadow(3px 15px 20px rgba(0, 0, 0, 0.25));
+  border-radius: 16px;
+}
+
+.features {
+}
+
+.features row {
+  /* padding-bottom: 172px; */
+}
+
+.feature-img {
+  height: 350px;
+  width: 350px;
+  border-radius: 16px;
+}
+
+.apply-btn {
+  background-color: #f4aa19;
+  color: #ffffff;
+  width: 279px;
+}
+
+.action-btn {
+  text-align: center;
+}
