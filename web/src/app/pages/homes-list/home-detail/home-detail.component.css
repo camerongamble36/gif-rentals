@@ -1,0 +1,25 @@
+.view {
+  height: 75vh;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.spotlight-view {
+  position: absolute;
+  width: 609px;
+  height: 778px;
+  right: 216px;
+  top: 599px;
+  background: #04203a;
+  border: 5px solid #fcfcfc;
+  border-radius: 16px;
+}
+
+.check-circle-green {
+  background-image: url('../../../../assets/icons/check-circle.svg');
+}
+.check-circle-red {
+  background-image: url('../../../../assets/icons/x-circle.svg');
+}

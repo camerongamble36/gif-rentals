@@ -1,0 +1,13 @@
+<div class="row mb-5" *ngFor="let comment of comments">
+  <div class="col-auto">
+    img
+  </div>
+  <div class="col">
+    <h4 class="fw-bold">{{ comment.author}}</h4>
+    <div class="d-flex flex-row mb-2">
+      <span>{{ comment.rating }}</span>
+      <span>{{ comment.timestamp }}</span>
+    </div>
+    <h5>{{ comment.body }}</h5>
+  </div>
+</div>

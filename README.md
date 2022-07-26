@@ -16,10 +16,12 @@ Home Page
 Homes List Page
 
 - Implement Figma Designs
+- Implement Header Carousel
 
 Home Detail Page
 
 - Implement Figma Designs
+- Change background picture to reflect the picture of the selected Home
 
 About GFI Page
 

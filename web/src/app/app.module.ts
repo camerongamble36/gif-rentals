@@ -14,6 +14,8 @@ import { AboutComponent } from './pages/misc/about/about.component';
 import { SignupComponent } from './pages/auth/signup/signup.component';
 import { LoginComponent } from './pages/auth/login/login.component';
 import { HomeDetailComponent } from './pages/homes-list/home-detail/home-detail.component';
+import { CommentsListComponent } from './components/comments-list/comments-list.component';
+import { CommentComponent } from './components/comments-list/comment/comment.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { HomeDetailComponent } from './pages/homes-list/home-detail/home-detail.
     SignupComponent,
     LoginComponent,
     HomeDetailComponent,
+    CommentsListComponent,
+    CommentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

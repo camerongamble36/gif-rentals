@@ -1,0 +1,26 @@
+.view {
+  height: 75vh;
+  /* position: relative; */
+  background-image: url("../../../assets/images/jpg/home_header_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-text {
+  position: absolute;
+  color: #FFFFFF;
+  top: 701px;
+  left: 187px;
+}
+
+.home-img {
+  border-radius: 16px;
+}
+
+.attribute {
+  height: 64px;
+  width: 64px;
+  background-color: #F4AA19;
+  padding: 16px;
+}

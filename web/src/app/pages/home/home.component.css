@@ -6,6 +6,45 @@
   background-repeat: no-repeat;
 }
 
+.header-text {
+  color: #ffffff;
+  margin-top: 122px;
+}
+
+.header-title {
+  font-size: 56px;
+}
+
+.header-subtitle {
+  color: #ffffff;
+  font-size: 48px;
+  width: 450px;
+}
+
+.header-description {
+  color: #ffffff;
+  width: 600px;
+}
+
+.header-text h4 {
+  color: #b6babf;
+}
+
+.spotlight-view {
+  position: absolute;
+  width: 609px;
+  height: 778px;
+  right: 216px;
+  top: 599px;
+  /* Primary/Dark/Blue */
+
+  background: #04203a;
+  /* UI/White/White */
+
+  border: 5px solid #fcfcfc;
+  border-radius: 16px;
+}
+
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -23,6 +62,7 @@
 }
 
 .testimonials {
+  margin-top: 250px;
   background-color: #c2d5e7;
   color: #ffffff;
 }
