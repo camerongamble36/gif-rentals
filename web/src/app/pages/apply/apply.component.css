@@ -1,0 +1,21 @@
+.view {
+  height: 50vh;
+  background-color: #04203A;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.summary-title {
+  color: #FCFCFC;
+}
+
+.home-application-form {
+  margin-top: 267px;
+}
+
+.header-section {
+  border-radius: 16px;
+  position: absolute;
+  top: 311px;
+}

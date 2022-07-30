@@ -12,16 +12,16 @@ export interface Attribute {
 
 export default class Home {
   constructor(
-    public id: string,
-    public imageUrl: string,
-    public title: string,
-    public description: string,
-    public address: string,
-    public price: number,
-    public beds: number,
-    public baths: number,
-    public amenities: Amenity[],
-    public attributes: Attribute[],
-    public comments: CommentModel[]
+    public id?: string,
+    public imageUrl?: string,
+    public title?: string,
+    public description?: string,
+    public address?: string,
+    public price?: number,
+    public beds?: number,
+    public baths?: number,
+    public amenities?: Amenity[],
+    public attributes?: Attribute[],
+    public comments?: CommentModel[]
   ) {}
 }

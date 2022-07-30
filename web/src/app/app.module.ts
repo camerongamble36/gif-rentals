@@ -16,6 +16,7 @@ import { LoginComponent } from './pages/auth/login/login.component';
 import { HomeDetailComponent } from './pages/homes-list/home-detail/home-detail.component';
 import { CommentsListComponent } from './components/comments-list/comments-list.component';
 import { CommentComponent } from './components/comments-list/comment/comment.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,7 @@ import { CommentComponent } from './components/comments-list/comment/comment.com
     CommentsListComponent,
     CommentComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

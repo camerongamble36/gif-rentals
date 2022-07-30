@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Observable, Subscribable, Subscription } from 'rxjs';
 import { HOMES_LIST } from '../data/dummy_data';
 import Home from '../model/home.model';
 
@@ -18,5 +19,12 @@ export class HomesService {
     const home = this._homesList.find((home) => home.id === id);
 
     return home!;
+  }
+
+  apply(application: any) {
+    console.log(application);
+
+    return application;
+
   }
 }
